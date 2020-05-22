@@ -39,11 +39,11 @@ public class RedeemListener implements Listener {
             return;
         }
 
-        if(!heldItem.hasItemMeta()){
+        if (!heldItem.hasItemMeta()){
             return;
         }
 
-        if (heldItem.getType() == Material.AIR || heldItem.getType() == null) {
+        if (heldItem.getType() == null || heldItem.getType() == Material.AIR) {
             return;
         }
 

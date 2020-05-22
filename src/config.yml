@@ -65,16 +65,16 @@ Options:
       - ''
       - '&8× &7IronGolem &b50%'
   Shop:
-    Lvl5CowSpawner:
+    Cobblestone:
       slot: 20
       price: 25
-      friendlyName: "Level: 5 Cow Spawner"
+      friendlyName: "Cobblestone"
       commands:
-        - 'us givespawner %player% cow 5'
+        - 'give %player% cobblestone'
       Item:
-        material: MOB_SPAWNER
-        name: '&d&lLevel 5 Cow Spawner'
-        amount: 1
+        material: COBBLESTONE
+        name: '&d&lCobblestone'
+        amount: 64
         lore:
           - ""
           - "&7Purchase this item from the Mob Coin Shop"
