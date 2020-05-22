@@ -18,7 +18,8 @@ nbproject/
 
 # Maven
 log/
-target/
+target
+out/
 
 # JRebel
 .rebel.xml
