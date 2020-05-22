@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="MobCoinsV1:jar">
-    <output-path>$USER_HOME$/Desktop</output-path>
-    <root id="archive" name="PearceMobCoins.jar">
-      <element id="module-output" name="PearceMobCoins" />
-    </root>
-  </artifact>
-</component>
